@@ -430,7 +430,7 @@ public class GenericDao<T> implements IGenericDao<T>{
 		
 		sql += sorting;
 		
-		logger.info("Find by Criteria" +sql);
+		logger.debug("Find by Criteria" +sql);
 		Connection conn = null;
 		PreparedStatement stat = null;
 		ResultSet rs = null;

@@ -4,7 +4,8 @@
 	    <groupId>com.dbs.db</groupId>
 		<artifactId>db-parent</artifactId>
 		<version>1.0.0</version>
-	</parent>
+		<relativePath>../db-parent</relativePath>
+  	</parent>
 	<artifactId>db-core</artifactId>
 
 

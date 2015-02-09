@@ -23,7 +23,13 @@ if there is no sqlserver sqljdbc4-4.0.jar, try to execute following command:
 or update your maven repository with jar file in 'resource'
 
 ====================================================================
-##### (3)	Project Build Dependency #####
+##### (3)	Log4j #####
+====================================================================
+Update output path of log file in File portlet-log4j.xml in Project 'com.dbs.portal.ui.common'.
+Path: \src\main\resources
+
+====================================================================
+##### (4)	Project Build Dependency #####
 ====================================================================
 Step by Step as below:
 1)	build Project 'CommonTools' with maven file - 'pom.xml'
@@ -33,3 +39,4 @@ Step by Step as below:
 If there are more than one UI projects, add new project in File 'pom.xml' in Project 'com.dbs.portal.ui.parent'. 
 1) Find Tag <modules> in 'pom.xml'
 2) add new Tag <module> {your project name} </module>
+
