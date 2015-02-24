@@ -1,4 +1,4 @@
-USE [FAST]
+USE [FAST_SAMPLE]
 GO
 
 /****** Object:  Table [dbo].[sequence_mst]    Script Date: 02/04/2015 14:40:00 ******/
@@ -6,7 +6,7 @@ IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[seque
 DROP TABLE [dbo].[sequence_mst]
 GO
 
-USE [FAST]
+USE [FAST_SAMPLE]
 GO
 
 /****** Object:  Table [dbo].[sequence_mst]    Script Date: 02/04/2015 14:40:01 ******/
