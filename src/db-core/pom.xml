@@ -4,7 +4,7 @@
 	    <groupId>com.dbs.db</groupId>
 		<artifactId>db-parent</artifactId>
 		<version>1.0.0</version>
-		<relativePath>../db-parent</relativePath>
+		<relativePath>../../../liferay-sample/src/db-parent</relativePath>
   	</parent>
 	<artifactId>db-core</artifactId>
 
